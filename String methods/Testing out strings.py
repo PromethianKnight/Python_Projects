@@ -3,3 +3,4 @@ description = 'This is a string, they can be big or small, filled with any range
 # Different operations possible
 print(description)  # Print the entire string
 print(len(description)) # Print the length of the string
+print(description.upper()) # Now you are shouting at someone
