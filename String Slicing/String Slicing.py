@@ -11,3 +11,5 @@ print(sentence[:21])   # Another way of writing it
 print(sentence[40:])   # Similarly
 
 print(sentence[::2])    # Step of 2 a.k.a. every other alphabet
+
+print(sentence[::-1])   # Everything is backwards
