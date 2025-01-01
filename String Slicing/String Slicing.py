@@ -18,11 +18,12 @@ print(sentence[::-1])   # Everything is backwards
 
 # WAP to pull only the website name from their respective URLs
 
-website1 = 'https://google.com'
-website2 = 'https://wikipedia.com'
-website3 = 'https://spotify.com'
+website1 = 'https://google.com' # Sample data 1
+website2 = 'https://wikipedia.com'  # Sample data 2
+website3 = 'https://spotify.com'    # Sample data 3
 
-slicer = slice(8,-4)
+slicer = slice(8,-4)    # slice function --> creates a slice object that can be re-used.
+                        # syntax slice(start index,end index)
 
 print(website1[slicer])
 
