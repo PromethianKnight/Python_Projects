@@ -13,3 +13,19 @@ print(sentence[40:])   # Similarly
 print(sentence[::2])    # Step of 2 a.k.a. every other alphabet
 
 print(sentence[::-1])   # Everything is backwards
+
+# Time for some slice function
+
+# WAP to pull only the website name from their respective URLs
+
+website1 = 'https://google.com'
+website2 = 'https://wikipedia.com'
+website3 = 'https://spotify.com'
+
+slicer = slice(8,-4)
+
+print(website1[slicer])
+
+print(website2[slicer])
+
+print(website3[slicer])
