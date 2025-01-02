@@ -21,7 +21,7 @@ print(sentence[::-1])   # Everything is backwards
 website1 = 'https://google.com' # Sample data 1
 website2 = 'https://wikipedia.com'  # Sample data 2
 website3 = 'https://spotify.com'    # Sample data 3
-website4 =
+website4 = 'https://yahoo.com'
 
 slicer = slice(8,-4)    # slice function --> creates a slice object that can be re-used.
                         # syntax slice(start index,end index)
