@@ -3,7 +3,7 @@
 # Function that takes an integer as an input
 def age_based_gez_calc (age:int):
 
-    how_old = 2025-age
+    how_old = 2025-age  # Calc difference between present year and year of birth
 
     if how_old <= 0:
         print('You are not yet born!')
